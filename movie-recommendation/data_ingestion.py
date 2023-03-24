@@ -31,7 +31,7 @@ for i in range(len(df)):
     print(json.dumps(movie))
 
     num = "%04d" % i
-    blob = bucket.blob(f'movie-{num}')
+    blob = bucket.blob(f'movie/movie-{num}')
     blob.upload_from_string(json.dumps(movie), 'application/json')
 
     print("Upload Success!")
