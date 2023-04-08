@@ -1,0 +1,103 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 45, 45);
+
+}
+
+.container-clicked-movie{
+
+    width: 100% auto;
+    height: 400px;
+
+    padding-left: 50px;
+    padding-top: 75px;
+    padding-right: 50px;
+
+    display: flex;
+
+    /* background-color: salmon; */
+
+}
+
+.container-img-clicked-movie{
+
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    /* background-color: red; */
+
+}
+
+.poster-clicked-movie{
+
+    width: 300px;
+    height: 375px;
+    border-radius: 25px;
+
+}
+
+.container-content-clicked-movie{
+
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+
+    color: whitesmoke;
+    font-family: sans-serif;
+
+    /* background-color: blue; */
+
+}
+.container-content-clicked-movie h2{
+
+    font-size: 28px;
+
+}
+
+tr{
+
+    height: 40px;
+    text-align: left;
+    vertical-align: top;
+
+}
+
+
+td{
+
+    font-size: 15px;
+
+}
+
+.title-recommend-movie{
+
+    color: whitesmoke;
+    margin-left: 75px;
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: sans-serif;
+
+}
+
+.container-recommend-movie{
+
+    width: 100% auto;
+    height: 100%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+    /* background-color: rgb(46, 45, 45); */
+
+}
